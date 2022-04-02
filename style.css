@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Monoton&family=Monsieur+La+Doulaise&family=Yeseva+One&display=swap');
+
+#parent{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background:linear-gradient(to right, #781C68 , #733c3c);
+    margin: 5% 0 0 25%;
+}
+img{
+    height: 100%;
+    width: 110%;
+}
+
+
+
+/* /////////////////////////TEXT/////////////////////////////////////// */
+
+.firstText{
+    background-color: #FFD36E;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    line-height: 20px;
+    padding: 2px 0 5px 0; 
+}
+.Head{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    font-size: larger;
+    text-transform: uppercase;
+}
+.small{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+}
+.secondText{
+    background: #C74B50;
+    padding: 2px 0 10px 0;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+.secondText:after{
+    background: linear-gradient(-45deg, #733c3c 16px, transparent 0), linear-gradient(45deg, #733c3c 16px, transparent 0);
+    background-position: left-bottom;
+    background-repeat: repeat-x;
+    background-size: 32px 32px;
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 32px;
+}
+.percentage{
+    font-family: 'Monoton', cursive;
+    color: #FFD36E;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+h3 span{
+    font-family: 'Londrina Sketch', cursive;
+    color: #FFD36E;
+    font-size: 2.2rem;
+}
+.discountText h3{
+    color: #FFD36E;
+    padding: 0 0 0 10px;
+    font-size: 2.2rem;
+}
+#discountParent{
+    display: flex;
+}
+h2 span{
+    margin-left: 21px;
+}
+.copyRight{
+    display: flex;
+    color: #fff;
+    margin: 100px 1px 0 120px;
+}
+
+
